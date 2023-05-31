@@ -5,462 +5,9 @@
         <meta charset="utf-8">
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
         <script src="https://kit.fontawesome.com/f02875d80d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
-
-    <style>
-
-        body {
-            width: 1440px;
-            margin: auto;
-        }
-
-        .titulo {
-            color:#252B42;
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 24px;
-            line-height: 32px;
-            margin-top: 30px;
-            margin-left: 195px;
-        }
-
-
-        .txt {
-            color: #737373;
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 900;
-            font-size: 14px;
-            line-height: 24px;  
-            margin-top: 33px;
-            margin-left: 52px;
-            word-spacing: 21px;
-        }
-
-        .container {
-            display: inline-flex;
-        }
-
-        .bg1 {
-            width: 1440px;
-            height: 700px;
-            background-image: url('imagens/bg-1.png');
-            margin:0;
-            background-repeat: no-repeat;
-        }
-
-        .login {
-            color: #96BB7C;
-            margin-top: 34px;
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 900;
-            font-size: 14px;
-            line-height: 22px;
-            margin-left: 240px;
-        }
-
-        .join {
-            margin-top: 19px;
-            background: #96BB7C;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            padding: 15px 25px;
-            gap: 15px;
-            position: absolute;
-            width: 137px; 
-            height: 52px;
-            border: none;
-            margin-left: 45px;
-            color: #FFFFFF;
-            font-family: 'Montserrat';
-            font-style: normal;
-            border-radius: 5px;
-            font-weight: 900;
-        }
-
-        .img1 {
-            margin-top: -615px;
-            margin-left: 733px;
-        }
-
-        .online {
-            color: #96BB7C;
-            margin-top: -540px;
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 900;
-            font-size: 16px;
-            line-height: 22px;
-            margin-left: 135px;
-            margin-bottom: 30px;
-        }
-
-        .txt2 {
-            font-family: 'Montserrat';
-            font-weight: 900;
-            font-size: 58px;
-            line-height: 80px;
-            letter-spacing: 0.2px;
-            color: #252B42;
-            margin-left: 132px;;
-        }
-
-        .subtxt {
-            font-family: 'Montserrat';
-            font-weight: 900;
-            font-size: 20px;
-            margin-left: 132px;
-            line-height: 30px;
-            letter-spacing: 0.2px;
-            color: #737373;
-            margin-top: 27px;
-        }
-
-        .botaoget {
-            margin-top: 30px;
-            background: #96BB7C;
-            display: flex;
-            align-items: center;
-            position: absolute;
-            padding-left: 45px;
-            width: 193px; 
-            height: 52px;
-            border: none;
-            margin-left: 132px;
-            color: #FFFFFF;
-            font-family: 'Montserrat';
-            font-style: normal;
-            border-radius: 5px;
-            font-weight: 900;
-        }
-
-        .botaolearn {
-            margin-top: 30px;
-            background: #FFFFFF;
-            display: flex;
-            align-items: center;
-            position: absolute;
-            padding-left: 60px;
-            width: 193px; 
-            height: 52px;
-            border: 2px solid;
-            border-color: #96BB7C;
-            margin-left: 340px;
-            color: #96BB7C;
-            font-family: 'Montserrat';
-            font-style: normal;
-            border-radius: 5px;
-            font-weight: 900;
-        }
-
-        .practice {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 24px;
-            color: #96BB7C;
-            margin-left: 198px;
-            margin-top: 200px;
-        } 
-
-        .our {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 40px;
-            line-height: 50px;
-            color: #252B42;
-            margin-left: 198px;
-        }
-
-        .subtxt2 {
-            font-family: 'Montserrat';
-            font-weight: 900;
-            font-size: 14px;
-            margin-left: 198px;
-            line-height: 30px;
-            letter-spacing: 0.2px;
-            color: #737373;
-            margin-top: 10px;
-        }
-
-        .quadrado {
-            width: 238px;
-            height: 288px;
-            background: #FFFFFF;
-            box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-            margin-left:198px;
-            margin-top: 112px;
-        }
-
-        .icon {
-            width: 72px;
-            height: 72px;
-            margin-top: 35px;
-            margin-left: 40px;
-        }
-
-        .training {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 900;
-            font-size: 16px;
-            line-height: 24px;
-            color: #252B42;
-            margin-left: 40px;
-            margin-top: 10px;
-        }
-
-        .hr {
-            width: 50px;
-            height: 2px;
-            background: #E74040;
-            margin-right: 145px;
-            margin-top: 20px;
-        }
-
-        .txt-quadrado {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 14px;
-            line-height: 20px;
-            letter-spacing: 0.2px;
-            color: #737373;
-            margin-left: 40px;
-            margin-top: 20px;
-        }
-
-        .quadrado2 {
-            width: 238px;
-            height: 288px;
-            background: #FFFFFF;
-            box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-            margin-left:30px;
-            margin-top: 112px;
-        }
-
-        .quadrado3 {
-            width: 238px;
-            height: 288px;
-            background: #96BB7C;
-            box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-            margin-left:30px;
-            margin-top: 112px;
-        }
-
-        .training2 {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 900;
-            font-size: 16px;
-            line-height: 24px;
-            color: #FFFFFF;
-            margin-left: 40px;
-            margin-top: 10px;
-        }
-        
-        .hr2 {
-            width: 50px;
-            height: 2px;
-            background: #FFFFFF;
-            margin-right: 145px;
-            margin-top: 20px;
-        }
-        
-        .txt-quadrado2 {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 14px;
-            line-height: 20px;
-            letter-spacing: 0.2px;
-            color: #FFFFFF;
-            margin-left: 40px;
-            margin-top: 20px;
-        }
-
-        
-        .configimg {
-            margin-left:230px;
-        }
-
-        .linha {
-            width: 94px;
-            height: 7px;
-            background: #E74040;
-            margin-top: -350px;
-            margin-left:861px;
-            border:none;
-        }
-
-        .txt3 {
-            width: 243px;
-            height: 100px;
-            font-family:'Montserrat';
-            font-weight: 700;
-            font-size: 40px;
-            line-height: 50px;
-            letter-spacing: 0.2px;
-            color: #252B42;
-            margin-left: 858px;
-        }
-
-        .subtxt4 {
-            width: 351px;
-            height: 60px;
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 20px;
-            letter-spacing: 0.2px;
-            color: #737373;
-            margin-left: 858px;
-            font-weight: 600;
-        }
-
-        .learn1 {
-            font-family: 'Montserrat';
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 24px;
-            letter-spacing: 0.2px;
-            color: #96BB7C;
-            margin-left: 858px;
-            margin-top: 30px;
-        }
-
-        
-        .hr3 {
-            width: 94px;
-            height: 7px;
-            background: #E74040;
-            margin-top: 780px;
-            margin-left: 195px;
-        }
-        
-        .approdable {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 40px;
-            line-height: 50px;
-            letter-spacing: 0.2px;
-            color: #252B42;
-            margin-left: 195px;
-            margin-top: 35px;
-        }
-
-        .video {
-            width: 513px;
-            height: 363px;
-            border-radius: 20px;
-            margin-left: 732px;
-            margin-top: -260px;
-        }
-
-        .subtxt3 {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 20px;
-            color: #737373;
-            margin-left: 195px;
-            margin-top: 35px;
-        }
-
-        .learn2 {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 24px;
-            color: #96BB7C;
-            margin-left: 195px;
-            margin-top: 35px;
-        }
-
-
-
-        .courses {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 24px;
-            letter-spacing: 0.2px;
-            color: #96BB7C;
-            margin-left: 198px;
-        }
-
-        .most {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 40px;
-            line-height: 50px;
-            letter-spacing: 0.2px;
-            color: #252B42;
-            margin-left: 198px;
-            margin-top: 10px;
-        }
-
-        .subtxt5 {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 20px;
-            letter-spacing: 0.2px;
-            color: #737373;
-            margin-left: 198px;
-            margin-top: 10px;
-        }
-        
-        .curso1 {
-            width: 238px;
-            height: 602px;
-            background: #FFFFFF;
-            border: 1px solid;
-            margin-left: 195px;
-            margin-top: 112px;
-        }
-
-        .bg-curso1 {
-            background-image: url("imagens/curso1.png");
-            width: 238px;
-            height: 300px;
-        }
-        
-        .sale {
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 24px;
-            text-align: center;
-            letter-spacing: 0.2px;
-            color: #FFFFFF;
-            width: 51px;
-            height: 24px;
-            background: #E74040;
-            border-radius: 3px;
-            margin-left: 30px;
-            margin-top: 20px;
-            padding-bottom: 25px;
-        }
-
-
-    </style>
-    
-    
     <header>    
         <div class="container bg1">
             <div class="titulo">Medical Hardy</div>
@@ -479,7 +26,7 @@
         </div>
     </header>
 
-    <body>
+    <div>
        <div>
         <div>
             <img class="img1" src="imagens/img1.png">
@@ -558,7 +105,7 @@
                     accumulation of <br>
                     information about </div>
             </div>
-        </div>
+          </div>
 
             
         
@@ -637,15 +184,298 @@
                 </div>
 
                 <div>
-                    <div class="curso1">
+                    <div class="curso1 container">
                         <div class="bg-curso1">
                             <button type="button" class="sale">Sale</button>
+                            
+                            <div style="margin-left: 45px;">
+                                <button type="button" class="icons"><i class="fa-regular fa-heart"></i></button>
+                                <button type="button" class="icons"><i class="fa-solid fa-cart-shopping"></i></button>
+                                <button type="button" class="icons"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+
+                            <div class="container">
+                                <div class="training3"> 
+                                    training Courses
+                                </div>
+
+                                <div class="botaoestrela">
+                                    <i class="fa-solid fa-star estrela"></i>
+                                    <p class="estrelatxt">4.9</p>
+                                </div>
+                            </div>
+
+                                <div class="titulocurso">
+                                    Video in Live Action
+                                </div>
+
+                                <div class="descricaocurso">
+                                    We focus on ergonomics <br>
+                                    and meeting you....
+                                </div>
+
+                                <div class="vendas container">
+                                    <div><i class="fa-solid fa-download"></i></div> &nbsp; &nbsp;
+                                    <div>15 Sales</div>
+                                </div>
+
+                                <div class="precos">
+                                    <span class="preco1">$16.48</span>
+                                    <span class="preco2">$6.48</span>
+                                </div>
+
+                                <div>
+                                    <button type="button" class="learn3">Learn More &nbsp; <i class="fa-solid fa-chevron-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="curso2 container">
+                            <div class="bg-curso2">
+                                <button type="button" class="sale">Sale</button>
+                                
+                                <div style="margin-left: 45px;">
+                                    <button type="button" class="icons"><i class="fa-regular fa-heart"></i></button>
+                                    <button type="button" class="icons"><i class="fa-solid fa-cart-shopping"></i></button>
+                                    <button type="button" class="icons"><i class="fa-solid fa-eye"></i></button>
+                                </div>
+    
+                                <div class="container">
+                                    <div class="training3"> 
+                                        Training Courses
+                                    </div>
+    
+                                    <div class="botaoestrela">
+                                        <i class="fa-solid fa-star estrela"></i>
+                                        <p class="estrelatxt">4.9</p>
+                                    </div>
+                                </div>
+    
+                                    <div class="titulocurso">
+                                        Most Popular Courses
+                                    </div>
+    
+                                    <div class="descricaocurso">
+                                        We focus on ergonomics <br>
+                                        and meeting you....
+                                    </div>
+    
+                                    <div class="vendas container">
+                                        <div><i class="fa-solid fa-download"></i></div> &nbsp; &nbsp;
+                                        <div>15 Sales</div>
+                                    </div>
+    
+                                    <div class="precos">
+                                        <span class="preco1">$16.48</span>
+                                        <span class="preco2">$6.48</span>
+                                    </div>
+    
+                                    <div>
+                                        <button type="button" class="learn3">Learn More &nbsp; <i class="fa-solid fa-chevron-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="curso2 container">
+                                <div class="bg-curso3">
+                                    <button type="button" class="sale">Sale</button>
+                                    
+                                    <div style="margin-left: 45px;">
+                                        <button type="button" class="icons"><i class="fa-regular fa-heart"></i></button>
+                                        <button type="button" class="icons"><i class="fa-solid fa-cart-shopping"></i></button>
+                                        <button type="button" class="icons"><i class="fa-solid fa-eye"></i></button>
+                                    </div>
+        
+                                    <div class="container">
+                                        <div class="training3"> 
+                                            2,769 online courses
+                                        </div>
+        
+                                        <div class="botaoestrela">
+                                            <i class="fa-solid fa-star estrela"></i>
+                                            <p class="estrelatxt">4.9</p>
+                                        </div>
+                                    </div>
+        
+                                        <div class="titulocurso">
+                                            Our Experts Teacher
+                                        </div>
+        
+                                        <div class="descricaocurso">
+                                            We focus on ergonomics <br>
+                                            and meeting you....
+                                        </div>
+        
+                                        <div class="vendas container">
+                                            <div><i class="fa-solid fa-download"></i></div> &nbsp; &nbsp;
+                                            <div>15 Sales</div>
+                                        </div>
+        
+                                        <div class="precos">
+                                            <span class="preco1">$16.48</span>
+                                            <span class="preco2">$6.48</span>
+                                        </div>
+        
+                                        <div>
+                                            <button type="button" class="learn3">Learn More &nbsp; <i class="fa-solid fa-chevron-right"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            <div class="curso2 container">
+                                    <div class="bg-curso4">
+                                        <button type="button" class="sale">Sale</button>
+                                        
+                                        <div style="margin-left: 45px;">
+                                            <button type="button" class="icons"><i class="fa-regular fa-heart"></i></button>
+                                            <button type="button" class="icons"><i class="fa-solid fa-cart-shopping"></i></button>
+                                            <button type="button" class="icons"><i class="fa-solid fa-eye"></i></button>
+                                        </div>
+            
+                                        <div class="container">
+                                            <div class="training3"> 
+                                                training Courses
+                                            </div>
+            
+                                            <div class="botaoestrela">
+                                                <i class="fa-solid fa-star estrela"></i>
+                                                <p class="estrelatxt">4.9</p>
+                                            </div>
+                                        </div>
+            
+                                            <div class="titulocurso">
+                                                Every Client Matters
+                                            </div>
+            
+                                            <div class="descricaocurso">
+                                                We focus on ergonomics <br>
+                                                and meeting you....
+                                            </div>
+            
+                                            <div class="vendas container">
+                                                <div><i class="fa-solid fa-download"></i></div> &nbsp; &nbsp;
+                                                <div>15 Sales</div>
+                                            </div>
+            
+                                            <div class="precos">
+                                                <span class="preco1">$16.48</span>
+                                                <span class="preco2">$6.48</span>
+                                            </div>
+            
+                                            <div>
+                                                <button type="button" class="learn3">Learn More &nbsp; <i class="fa-solid fa-chevron-right"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                    </div>
+                </div>
+
+                
+            </div>
+
+
+            <div>
+                <div class="practice">
+                    Practice Advice
+                </div>
+
+                <div class="our">
+                    Our Experts Teacher
+                </div>
+
+                <div class="subtxt2">
+                    Problems trying to resolve the conflict between <br>
+                    the two major realms of Classical physics: Newtonian mechanics 
+                </div>
+
+                
+                <div class="container">
+                    <div class="plano1">
+                        <div class="circulo-verde">
+                            <i class="fa-solid fa-heart coracao"></i>
+                        </div>
+
+                        <div class="free">
+                            FREE 
+                        </div>
+
+                        <div class="organize">
+                            Organize across all <br> 
+                            apps by hand
+                        </div>
+
+                        <div class="preco-plano">
+                            19$
+                        </div>
+
+                        <div class="month">
+                            Per Month
+                        </div>
+
+                        <div class="slate">
+                            Slate helps you see how <br>
+                            many more days you need...
+                        </div>
+                    </div>
+
+                    <div class="plano2">
+                        <div class="circulo-verde">
+                            <i class="fa-solid fa-heart coracao"></i>
+                        </div>
+
+                        <div class="free2">
+                            FREE 
+                        </div>
+
+                        <div class="organize2">
+                            Organize across all <br> 
+                            apps by hand
+                        </div>
+
+                        <div class="preco-plano">
+                            19$
+                        </div>
+
+                        <div class="month">
+                            Per Month
+                        </div>
+
+                        <div class="slate2">
+                            Slate helps you see how <br>
+                            many more days you need...
+                        </div>
+                    </div>
+
+                    <div class="plano3">
+                        <div class="circulo-verde">
+                            <i class="fa-solid fa-heart coracao"></i>
+                        </div>
+
+                        <div class="free">
+                            FREE 
+                        </div>
+
+                        <div class="organize">
+                            Organize across all <br> 
+                            apps by hand
+                        </div>
+
+                        <div class="preco-plano">
+                            19$
+                        </div>
+
+                        <div class="month">
+                            Per Month
+                        </div>
+
+                        <div class="slate">
+                            Slate helps you see how <br>
+                            many more days you need...
                         </div>
                     </div>
                 </div>
             </div>
-
-        </div>
+                    
         
 
     </body>
